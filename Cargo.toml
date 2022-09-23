@@ -1,0 +1,17 @@
+[package]
+name = "waiting_queue_app"
+version = "0.1.0"
+authors = ["MajorX234 <majorx234@googlemail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "queue_db"
+path = "src/queue_db/bin/main.rs"
+
+[[bin]]
+name = "queue_simulator"
+path = "src/queue_simulator/bin/main.rs"
+
+[[bin]]
+name = "queue_rocket_server"
+path = "src/queue_rocket_server/bin/main.rs"
